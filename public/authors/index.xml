@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on My New Hugo Site</title>
-    <link>http://localhost:1313/authors/</link>
+    <link>http://localhost:34055/authors/</link>
     <description>Recent content in Authors on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 25 Apr 2024 19:00:55 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/authors/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:34055/authors/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Boba Fett</title>
-      <link>http://localhost:1313/authors/boba-fett/</link>
+      <link>http://localhost:34055/authors/boba-fett/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/authors/boba-fett/</guid>
+      <guid>http://localhost:34055/authors/boba-fett/</guid>
       <description></description>
     </item>
     <item>
       <title>Bob</title>
-      <link>http://localhost:1313/authors/bob/</link>
+      <link>http://localhost:34055/authors/bob/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/authors/bob/</guid>
+      <guid>http://localhost:34055/authors/bob/</guid>
       <description></description>
     </item>
     <item>
       <title>Laurenz</title>
-      <link>http://localhost:1313/authors/laurenz/</link>
+      <link>http://localhost:34055/authors/laurenz/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/authors/laurenz/</guid>
+      <guid>http://localhost:34055/authors/laurenz/</guid>
       <description></description>
     </item>
   </channel>

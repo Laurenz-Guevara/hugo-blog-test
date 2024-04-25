@@ -1,11 +1,12 @@
 {{ define "main" }}
-<div class="list">
+<div>
   {{ range .Paginator.Pages }}
   <div class="image">
     <img src={{ .Params.image }} alt={{ .Params.title }} loading="lazy">
     <h1>
       <a href={{.Permalink}}>{{.Title}}</a>
-      <time>{{ dateFormat $.Site.Params.dateFormat .Date }}</time>    </h1>
+      <time>{{ dateFormat $.Site.Params.dateFormat .Date }}</time>  
+    </h1>
     <img src={{ .Params.avatar }} alt={{ .Params.authors }} loading="lazy">
       {{ range(.GetTerms "authors")}}
     <a href={{ .Permalink}}>{{.Name}}</a>
