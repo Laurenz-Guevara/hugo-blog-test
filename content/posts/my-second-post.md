@@ -1,5 +1,5 @@
 +++
-title = 'The Mandalorians - Guide to Potty Training a Baby Yoda'
+title = "The Mandalorian's 'Guide to Potty Training a Baby Yoda: It's Not Rocket Science, It's Just the Force"
 date = 2024-04-25T18:22:54+01:00
 draft = false
 description = "This is a description"
@@ -8,8 +8,6 @@ categories = ["General", "Test"]
 authors = ["The Mandalorian"]
 avatar = "/images/profile.jpg"
 +++
-
-# The Mandalorian's 'Guide to Potty Training a Baby Yoda: It's Not Rocket Science, It's Just the Force'
 
 So you've found yourself the proud guardian of a cute but occasionally mischievous little green bundle of joy? Fear not, fellow spacefarer, for even the most seasoned Mandalorian can face the challenge of potty training a Baby Yoda. Here are some tried and tested tips from the galaxy's best bounty hunters:
 

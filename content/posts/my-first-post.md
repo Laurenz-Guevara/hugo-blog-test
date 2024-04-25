@@ -1,5 +1,5 @@
 +++
-title = 'The Art of Negotiating with Hutts: Tips from a Seasoned Smuggler'
+title = "The Art of Negotiating with Hutts: Tips from a Seasoned Smuggler"
 date = 2024-04-25T18:07:36+01:00
 draft = false
 description = "This is a description"
