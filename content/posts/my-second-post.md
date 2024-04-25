@@ -34,4 +34,3 @@ When Baby Yoda successfully uses the potty, celebrate like it's Life Day! Offer 
 Don't hesitate to seek advice from other Mandalorians who have traversed the treacherous terrain of potty training. Share stories, tips, and perhaps a laugh or two over a mug of blue milk.
 
 With these strategies in your arsenal, you'll soon have Baby Yoda using the potty like a seasoned spacefarer. May the Force (and plenty of patience) be with you on this epic journey!
-

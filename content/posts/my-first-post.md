@@ -32,4 +32,3 @@ While blasters may be a smuggler's weapon of choice, diplomacy is often more eff
 Negotiating with Hutts can be unpredictable, so always have a backup plan in case things don't go as planned. Whether it's a hidden escape route, a loyal crew waiting in the wings, or a clever distraction, be prepared to adapt and improvise to ensure a successful negotiation.
 
 With these tips in mind, you'll be well-equipped to navigate the treacherous waters of Hutt negotiations like a true smuggler. May the credits flow in your favor!
-

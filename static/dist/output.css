@@ -1211,16 +1211,16 @@ video {
   padding-bottom: 2.5rem;
 }
 
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
 .pl-3 {
   padding-left: 0.75rem;
 }
 
 .pl-4 {
   padding-left: 1rem;
-}
-
-.pb-4 {
-  padding-bottom: 1rem;
 }
 
 .text-2xl {
@@ -1281,4 +1281,3 @@ body {
     --tw-prose-td-borders: var(--tw-prose-invert-td-borders);
   }
 }
-
