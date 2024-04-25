@@ -2,46 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:34055/authors/</loc>
+    <loc>http://localhost:44135/authors/</loc>
     <lastmod>2024-04-25T19:00:55+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:34055/authors/boba-fett/</loc>
+    <loc>http://localhost:44135/authors/boba-fett/</loc>
     <lastmod>2024-04-25T19:00:55+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:34055/categories/</loc>
+    <loc>http://localhost:44135/categories/</loc>
     <lastmod>2024-04-25T19:00:55+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:34055/categories/general/</loc>
+    <loc>http://localhost:44135/categories/general/</loc>
     <lastmod>2024-04-25T19:00:55+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:34055/</loc>
+    <loc>http://localhost:44135/</loc>
     <lastmod>2024-04-25T19:00:55+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:34055/posts/my-test-post/</loc>
+    <loc>http://localhost:44135/posts/my-test-post/</loc>
     <lastmod>2024-04-25T19:00:55+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:34055/posts/</loc>
+    <loc>http://localhost:44135/posts/</loc>
     <lastmod>2024-04-25T19:00:55+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:34055/categories/random/</loc>
+    <loc>http://localhost:44135/categories/random/</loc>
     <lastmod>2024-04-25T19:00:55+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:34055/authors/bob/</loc>
+    <loc>http://localhost:44135/authors/bob/</loc>
     <lastmod>2024-04-25T18:22:54+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:34055/posts/my-second-post/</loc>
+    <loc>http://localhost:44135/posts/my-second-post/</loc>
     <lastmod>2024-04-25T18:22:54+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:34055/categories/test/</loc>
+    <loc>http://localhost:44135/categories/test/</loc>
     <lastmod>2024-04-25T18:22:54+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:34055/categories/coding/</loc>
+    <loc>http://localhost:44135/categories/coding/</loc>
     <lastmod>2024-04-25T18:07:36+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:34055/authors/laurenz/</loc>
+    <loc>http://localhost:44135/authors/laurenz/</loc>
     <lastmod>2024-04-25T18:07:36+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:34055/posts/my-first-post/</loc>
+    <loc>http://localhost:44135/posts/my-first-post/</loc>
     <lastmod>2024-04-25T18:07:36+01:00</lastmod>
   </url>
 </urlset>
