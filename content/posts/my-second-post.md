@@ -1,7 +1,12 @@
 +++
 title = 'My Second Post'
 date = 2024-04-25T18:22:54+01:00
-draft = true
+draft = false
+description = "This is a description"
+image = "/images/thumbnail.jpg"
+categories = ["general", "test"]
+authors = ["Bob"]
+avatar = "/images/profile.jpg"
 +++
 
 # Caedis ipse nubere Apollinei florem tantusque domito

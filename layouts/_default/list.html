@@ -1,11 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
-  </head>
-  <body>
-    This is the home page
-  </body>
-</html>
+{{ define "main" }}
+<div class="list">
+  {{ range .Paginator.Pages }}
+  <div class="image">
+    <img src={{ .Params.image }} alt={{ .Params.title }} loading="lazy">
+    <h1>
+      <a href={{.Permalink}}>{{.Title}}</a>
+      <time>{{ dateFormat $.Site.Params.dateFormat .Date }}</time>    </h1>
+    <img src={{ .Params.avatar }} alt={{ .Params.authors }} loading="lazy">
+      {{ range(.GetTerms "authors")}}
+    <a href={{ .Permalink}}>{{.Name}}</a>
+    {{ end }}
+  </div>
+  <div>
+    {{ range (.GetTerms "categories")}}
+      <a href={{ .Permalink}}>{{.Name}}</a>
+    {{ end }}
+  </div>
+  {{ end }}
+</div>
+{{ end }}

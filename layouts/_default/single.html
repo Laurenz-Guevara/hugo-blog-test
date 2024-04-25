@@ -1,0 +1,28 @@
+{{ define "main" }}
+<div>
+  <div>
+    <div>
+      <h1>{{.Title}}</h1>
+      <p>{{.Params.description}}</p>
+      <div>
+        <!-- <img src={{.Params.avatar}} loading="lazy" alt="" class="singleAvatar"> -->
+        <span>{{ range (.GetTerms "authors")}}
+          <a href={{.Permalink}}>{{ .Name }}</a>
+          {{end}}
+        </span>
+        {{ range (.GetTerms "categories")}}
+        <a href={{.Permalink}}>{{ .Name }}</a>
+        {{end}}
+      </div>
+      <time>{{ dateFormat .Site.Params.dateFormat .Date }}</time>
+    </div>
+  </div>
+  <div>
+    <br/>
+    <br/>
+    <div>{{ .Content }}</div>
+    <br/>
+    <br/>
+  </div>
+</div>
+{{ end }}

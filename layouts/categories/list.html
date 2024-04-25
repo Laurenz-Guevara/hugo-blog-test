@@ -1,0 +1,47 @@
+{{ define "main" }} 
+{{ if eq .RelPermalink "/categories/"}} 
+{{ range $.Site.Taxonomies.categories.ByCount }}
+  <a href="/categories/{{ .Name }}">
+    # {{ .Name }} <small>({{.Count}})</small>
+  </a>
+{{end}}
+{{ else }}
+<div>
+  {{ range .Paginator.Pages }}
+  <div>
+    <img
+      src={{
+      .Params.image
+      }}
+      alt="{{.Title}}"
+      loading="lazy"
+    />
+    <div>
+      <h1>
+        <a href="{{.Permalink}}">{{.Title}}</a>
+      </h1>
+      <p >{{.Params.description}}</p>
+      <div>
+        <img
+          src="{{.Params.avatar}}"
+          loading="lazy"
+          alt=""
+        />
+        <span
+          >{{ range (.GetTerms "authors")}}
+          <a href="{{.Permalink}}">{{ .Name }}</a>
+          {{end}}</span
+        >
+        <time>{{ dateFormat .Site.Params.dateFormat .Date}}</time>
+      </div>
+      <div >
+        {{ range (.GetTerms "categories") }}
+        <a href={{ .Permalink }}>{{ .Name }}</a>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+  {{ end }} {{ template "_internal/pagination.html" . }}
+</div>
+{{end}}
+{{ end }}
