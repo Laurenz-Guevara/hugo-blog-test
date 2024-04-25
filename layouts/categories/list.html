@@ -19,10 +19,8 @@
   <div class="flex">
     <img
       class="w-32 h-32"
-      src={{ .Params.image }}
-      alt={{
-      .Params.title
-      }}
+      src="{{ .Params.image }}"
+      alt="{{ .Params.title }}"
       loading="lazy"
     />
     <div class="flex flex-wrap pl-4">
@@ -33,8 +31,8 @@
       <div class="flex w-full items-center">
         <img
           class="w-8 h-8 rounded-full"
-          src={{ .Params.avatar }}
-          alt={{ .Params.authors }}
+          src="{{ .Params.avatar }}"
+          alt="{{ .Params.authors }}"
           loading="lazy"
         />
         {{ range(.GetTerms "authors")}}
