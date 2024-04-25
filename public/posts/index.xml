@@ -13,7 +13,7 @@
       <link>http://localhost:1313/posts/my-test-post/</link>
       <pubDate>Thu, 25 Apr 2024 19:00:55 +0100</pubDate>
       <guid>http://localhost:1313/posts/my-test-post/</guid>
-      <description></description>
+      <description>Hello world! </description>
     </item>
     <item>
       <title>My Second Post</title>

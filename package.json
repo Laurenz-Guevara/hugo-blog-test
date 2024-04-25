@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "dev": "concurrently \"hugo server\" \"npx tailwindcss -i ./styles/styles.css -o ./dist/output.css --watch\""
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
