@@ -1,46 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=36925&amp;path=livereload" data-no-instant defer></script>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=39801&amp;path=livereload" data-no-instant defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="http://localhost:36925//styles/styles.css">
-     <link rel="stylesheet" href="http://localhost:36925/dist/output.css">
+    <link rel="stylesheet" href="http://localhost:39801//styles/styles.css">
+     <link rel="stylesheet" href="http://localhost:39801/dist/output.css">
     <title>Document</title>
   </head>
-  <body>
+  <body class="bg-primary">
     <div class="container mx-auto">
       <nav navbar>
-  <div>
-    <a href="http://localhost:36925/">Homepage</a>
-    <a href="http://localhost:36925//categories">Categories</a>
+  <div class="flex justify-between py-10">
+    <a href="http://localhost:39801/" class="text-4xl">Scorado Blog Test</a>
+    <div class="space-x-4">
+      <a href="http://localhost:39801/">Homepage</a>
+      <a href="http://localhost:39801//categories">Categories</a>
+    </div>
   </div> 
 </nav>
 
       
 <div>
   
-  <div class="image">
-    <img src=http://localhost:36925/images/thumbnail.jpg alt=My&#32;First&#32;Post! loading="lazy">
-    <h1>
-      <a href=http://localhost:36925/posts/my-first-post/>My First Post!</a>
+  <div class="flex">
+    <img class="w-32 h-32" src=http://localhost:39801/images/thumbnail.jpg alt=The&#32;Art&#32;of&#32;Negotiating&#32;with&#32;Hutts:&#32;Tips&#32;from&#32;a&#32;Seasoned&#32;Smuggler loading="lazy">
+    <div class="flex flex-wrap pl-4">
+    <div class="w-full">
+      <h1 class="text-3xl"><a href=http://localhost:39801/posts/my-first-post/>The Art of Negotiating with Hutts: Tips from a Seasoned Smuggler</a></h1>
       <time>Apr 25, 2024</time>  
-    </h1>
-    <img src=http://localhost:36925/images/profile.jpg alt=[Laurenz] loading="lazy">
+    </div>
+    <div class="flex w-full items-center">
+      <img class="w-8 h-8 rounded-full" src=http://localhost:39801/images/profile.jpg alt=[Laurenz] loading="lazy">
       
-    <a href=http://localhost:36925/authors/laurenz/>Laurenz</a>
-    
+      <a class="pl-3" href=http://localhost:39801/authors/laurenz/>Laurenz</a>
+      
+    </div>
+    </div>
   </div>
-  <div>
-    
-      <a href=http://localhost:36925/categories/general/>general</a>
-    
-      <a href=http://localhost:36925/categories/coding/>coding</a>
-    
+  <div class="flex space-x-4 py-10">
+      
+      <a class="inline-block bg-tertiary text-primary rounded-md px-4 py-1 font-medium whitespace-nowrap" href=http://localhost:39801/categories/general/>
+        General
+      </a>
+      
+      <a class="inline-block bg-tertiary text-primary rounded-md px-4 py-1 font-medium whitespace-nowrap" href=http://localhost:39801/categories/coding/>
+        Coding
+      </a>
+      
   </div>
   
 </div>
 
-      <footer>Footer</footer>
+      <footer class="py-5 border-t">
+  <a href="http://localhost:39801/" class="text-2xl">Scorado Blog Test</a>
+</footer>
 
     </div>
   </body>

@@ -1,21 +1,27 @@
 {{ define "main" }}
 <div>
   {{ range .Paginator.Pages }}
-  <div class="image">
-    <img src={{ .Params.image }} alt={{ .Params.title }} loading="lazy">
-    <h1>
-      <a href={{.Permalink}}>{{.Title}}</a>
+  <div class="flex">
+    <img class="w-32 h-32" src={{ .Params.image }} alt={{ .Params.title }} loading="lazy">
+    <div class="flex flex-wrap pl-4">
+    <div class="w-full">
+      <h1 class="text-3xl"><a href={{.Permalink}}>{{.Title}}</a></h1>
       <time>{{ dateFormat $.Site.Params.dateFormat .Date }}</time>  
-    </h1>
-    <img src={{ .Params.avatar }} alt={{ .Params.authors }} loading="lazy">
+    </div>
+    <div class="flex w-full items-center">
+      <img class="w-8 h-8 rounded-full" src={{ .Params.avatar }} alt={{ .Params.authors }} loading="lazy">
       {{ range(.GetTerms "authors")}}
-    <a href={{ .Permalink}}>{{.Name}}</a>
-    {{ end }}
+      <a class="pl-3" href={{ .Permalink}}>{{.Name}}</a>
+      {{ end }}
+    </div>
+    </div>
   </div>
-  <div>
-    {{ range (.GetTerms "categories")}}
-      <a href={{ .Permalink}}>{{.Name}}</a>
-    {{ end }}
+  <div class="flex space-x-4 py-10">
+      {{ range (.GetTerms "categories")}}
+      <a class="inline-block bg-tertiary text-primary rounded-md px-4 py-1 font-medium whitespace-nowrap" href={{ .Permalink}}>
+        {{.Name}}
+      </a>
+      {{ end }}
   </div>
   {{ end }}
 </div>

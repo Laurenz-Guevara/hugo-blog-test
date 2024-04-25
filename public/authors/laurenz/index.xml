@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Laurenz on My New Hugo Site</title>
-    <link>http://localhost:36925/authors/laurenz/</link>
+    <link>http://localhost:39801/authors/laurenz/</link>
     <description>Recent content in Laurenz on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 25 Apr 2024 18:07:36 +0100</lastBuildDate>
-    <atom:link href="http://localhost:36925/authors/laurenz/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:39801/authors/laurenz/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post!</title>
-      <link>http://localhost:36925/posts/my-first-post/</link>
+      <title>The Art of Negotiating with Hutts: Tips from a Seasoned Smuggler</title>
+      <link>http://localhost:39801/posts/my-first-post/</link>
       <pubDate>Thu, 25 Apr 2024 18:07:36 +0100</pubDate>
-      <guid>http://localhost:36925/posts/my-first-post/</guid>
-      <description>Introduction This is bold text, and this is emphasized text.&#xA;Visit the Hugo website!</description>
+      <guid>http://localhost:39801/posts/my-first-post/</guid>
+      <description>So you&amp;rsquo;ve found yourself face to face with a Hutt, the notorious gangsters of the galaxy, and you need to negotiate your way out of a sticky situation? Fear not, fellow smuggler, for negotiating with Hutts is an art form that can be mastered with the right tactics. Here are some invaluable tips from a seasoned smuggler:&#xA;1. Know Your Worth Before entering negotiations, understand the value of what you&amp;rsquo;re offering.</description>
     </item>
   </channel>
 </rss>
