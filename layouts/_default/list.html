@@ -21,7 +21,7 @@
           loading="lazy"
         />
         {{ range(.GetTerms "authors")}}
-        <a class="pl-3" href={{ .Permalink}}>{{.Name}}</a>
+        <a class="pl-3" href="{{ .Permalink}}">{{.Name}}</a>
         {{ end }}
       </div>
     </div>
@@ -30,7 +30,8 @@
     {{ range (.GetTerms "categories")}}
     <a
       class="inline-block bg-tertiary text-primary rounded-md px-4 py-1 font-medium whitespace-nowrap"
-      href={{ .Permalink}} >
+      href="{{ .Permalink}}"
+    >
       {{.Name}}
     </a>
     {{ end }}
