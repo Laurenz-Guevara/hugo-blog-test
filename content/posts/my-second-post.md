@@ -4,7 +4,7 @@ date = 2024-04-25T18:22:54+01:00
 draft = false
 description = "This is a description"
 image = "/images/thumbnail.jpg"
-categories = ["General", "Test", "Lorem Ipsum"]
+categories = ["General", "Test"]
 authors = ["The Mandalorian"]
 avatar = "/images/profile.jpg"
 +++
